@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Bold.otf') format('opentype');
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+}
+.left{
+    min-height: 100vh;
+    min-width: 40%;
+    
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    padding-top: 30vh;
+    
+
+}
+.odinlogodiv{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2% 0;
+    justify-content: center;
+    gap: 2%;
+    padding: 15px 0;
+  
+    
+}
+.odin{
+    width: 7vw;   
+    
+}
+p.odinname{
+    font-size: 7vw;
+    color: white;
+    font-family: "Norse","system-ui";
+    display: flex;
+    align-items: center;
+}
+.right{
+    padding-left: 2vw;
+   
+}
+.authorsection{
+    display: flex;
+    margin-top: 100%;
+    justify-content: center;
+    padding-bottom: 23px;
+    gap: 4px;
+    font-size: 1vw;
+
+}
+.author{
+    color: white;
+  
+  
+
+}
+.author1{
+    color: white;
+    
+}
+a{
+    display: flex;
+}
+p.maintext{
+    font-size: 1.4vw;
+    margin-top: 20vh;
+    font-weight:bold;
+    
+    width: 55ch;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+
+em{
+    font-weight: 500;
+}
+span{
+    padding-top: 30px;
+    display: block;
+}
+.letsdothistext{
+   
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    font-weight: 300;
+    font-size: 2vw;
+}  
+div.maintextarea {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom:5vw;
+  }
+  
+label {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+  }
+  
+.name,.emailphone,.password{
+    display: flex;
+    gap: 3vw;
+    
+}  
+
+
+.emailphone,.password{
+    margin-top: 2%;
+}
+input{
+    padding: 0.5vw;
+    border : 1px solid rgb(186, 182, 182);
+    border-radius: 5px;
+    outline: none;
+    width: 19vw;
+}
+input:focus{
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.1);
+    border: solid 1px blue;
+
+}
+.boxshadow{
+    padding: 2vw 2vw;
+    border: 1px solid black;
+  
+    width: 100%;
+    box-sizing:border-box;
+    box-shadow: 0 9px 44px 3px rgb(88, 84, 84);
+
+}
+.account{
+    margin-top: 3vw;
+    width: 13vw;
+    padding: 0.6vw;
+    background-color: #596D48;
+    border: 1px solid black;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.account:active{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(6px);
+}
+p.log{
+    
+}
+.already{
+    display: flex;
+    margin-top: 3vw;
+    gap: 1vw;
+}
+#logIn{
+    color: black;
+}
